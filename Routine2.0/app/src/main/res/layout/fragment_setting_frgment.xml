@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/settings_page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.routineapp.aristaik.routine20.Setting_frgment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Spinner
+        android:id="@+id/dept_spinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:layout_above="@+id/sem_spinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"></Spinner>
+
+    <Spinner
+        android:id="@+id/sem_spinner"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="201dp"
+        android:layout_above="@+id/setting_fragment_button_id"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"></Spinner>
+
+    <Button
+        android:id="@+id/setting_fragment_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting_fragment_button_text"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"/>
+
+    <Button
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/dept_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/dept_spinner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+</RelativeLayout>

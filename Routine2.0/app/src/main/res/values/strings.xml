@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Routine 2.0</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setting_fragment_button_text">GO</string>
+
+    <string-array name="department_names">
+
+        <item>ICT</item>
+        <item>CSE</item>
+        <item>TEX</item>
+
+    </string-array>
+    <string-array name="semester_no">
+
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+        <item> 5</item>
+        <item> 6</item>
+        <item> 7</item>
+        <item> 8</item>
+    </string-array>
+    <string name="appwidget_text">hellow there </string>
+    <string name="add_widget">Add widget</string>
+</resources>
